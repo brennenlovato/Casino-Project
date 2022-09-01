@@ -18,13 +18,13 @@ class Casino
       raise "Bad Input" unless response > 0 && response < 6
       case response
       when 1
-        # todo: RPS
+        RPS.new(@player)
       when 2
-        # todo: Black Jack
+        BlackJack.new(@player)
       when 3
-        # todo: Slots
+        Slots.new(@player)
       when 4
-        puts "You have $#{player.money}"
+        puts "You have $#{Player.money}"
       when 5
         puts "Thanks for giving us your money!"
         exit
