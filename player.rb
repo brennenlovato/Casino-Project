@@ -3,6 +3,6 @@ class Player
   def initialize
   puts "What is your name?"
   @name = gets.strip
-  @money = 100.00
+  @money = 100.0
   end
 end
