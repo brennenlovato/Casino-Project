@@ -17,6 +17,6 @@ class BlackJack
     else
       puts "Please place valid bet."
       return
-    end
-  end
-end
+    end # end nested if statement
+  end # end if statement
+end #end game
